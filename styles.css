@@ -1,0 +1,30 @@
+body {
+	margin: 8px;
+}
+
+.container {
+	background-color: pink;
+	display: flex;
+}
+
+.sidebar {
+	border: 2px solid #444;
+	width: 160px;
+	flex-shrink: 0;
+	border-right: 1px solid;
+}
+
+.main {
+	border: 2px solid #444;
+	flex-grow: 1;
+}
+
+.main_header {
+	padding: 20px;
+	border: 2px solid #444;
+}
+
+.main_content {
+	padding: 20px;
+	border: 2px solid #444;
+}

@@ -1,0 +1,109 @@
+.container {
+  height: 300px;
+  width: 400px;
+  background: #F5F5F5;
+  position: fixed;
+}
+
+.user-profile {
+  width: 90%;
+  margin: 10px 20px;
+  display: flex;
+}
+
+.user-content {
+  background: white;
+  width: 90%;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.whale-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  flex-shrink: 0
+}
+
+.whale-text {
+  flex-grow:1;
+  padding-left: 10px;
+  align-self: center;
+  color: #aaa;
+}
+
+a {
+  text-decoration: none;
+  color: #4392DC;
+}
+
+.content-heading {
+  border-bottom: 2px solid #F5F5F5;
+  position: relative;
+}
+
+.float-icon {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  padding-left: 10px;
+}
+
+.post-name {
+  position: absolute;
+  top: 15px;
+  padding-left: 5px;
+  color: #aaa;
+}
+
+content-info {
+  
+}
+
+.status-buttons {
+  border: 1px solid #aaa;
+  margin-left:10px;
+  color: #aaa;
+  padding: 1px 5px;
+  font-size: 14px
+}
+
+.now {
+  color: red
+}
+
+.money {
+  color: #F1B35F;
+  margin-left: 15px;
+}
+
+.content-info-text {
+  color: #333;
+  padding-left: 15px;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.comment-row {
+   display: flex;
+}
+
+.comment-button {
+  margin-left: 10px;
+  color: #2889D8;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 28px;
+  border:1px solid #A0C7F7;
+}
+
+.grey-circle {
+  width: 25px;
+  height: 25px;
+  background: #7A7A7A;
+  border-radius: 50%;
+  margin-left: 15px;
+  display:inline-block;
+}
+

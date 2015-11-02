@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+}
+
+/*div {
+	border: 1px solid;
+}
+*/
+.header {
+	width: 100%;
+}
+
+.navbar {
+	display:flex;
+	width: 100%;
+	height: 60px;
+}
+
+.logo {
+	width: 200px;
+	display: flex;
+	align-items: center;
+
+}
+
+.google-logo {
+	height: 33px;
+	width: 92px;
+	margin-left: 20px;
+}
+
+.searchbar {
+	flex-grow:1;
+	display: flex;
+	align-items: center;
+}
+
+.search-input {
+	width: 600px;
+	height: 30px;
+}
+
+.search-button {
+	width: 60px;
+	height: 30px;
+	color: white;
+	background-color: #4485F5;
+	border: 1px solid transparent;
+}
+
+
+.navbar-icons {
+	padding: 15px 10px;
+	display: flex;
+}
+
+.button-class {
+	background-color: transparent;
+	border-color: transparent;
+	color: #737373;
+	font-weight: bold;
+}
+
+
+.toolbar {
+	display: flex;
+	width: 100%;
+	background-color: #FAFAFA;
+	height: 53px;
+}
+
+.drive {
+	width: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.drive-logo {
+	margin-left: 20px;
+}
+
+.drive-text {
+	color: #555;
+    font-size: 20px;
+    padding: 5px 5px 5px 9px;
+}
+
+.mydrive-dropdown {
+	flex-grow:1;
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+}
+
+.dropdown {
+	font-size: 16px;
+	font-weight: bold;
+	color: #585858;
+	position: relative;
+}
+
+.arrow {
+	position: absolute;
+	left: 75px;
+    top: 0px;
+}
+
+.toolbar-icons {
+	display: flex;
+	align-items: center;
+	padding: 0px 10px;
+}
+
+
+.main-content {
+	display:flex;
+	flex-direction: row;
+}
+
+.main-sidebar {
+	width: 200px;
+	background-color: #EEEEEE;
+}
+
+.new-button {
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background-color:#d14836;
+	border: 1px solid transparent;
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    box-shadow: none;
+    height: 29px;
+    width: 114px;
+	display:inline-block;
+	cursor:pointer;
+	padding:6px 24px;
+	margin: 20px 0px 0px 15px;
+	border-radius: 2px;
+	
+}
+
+.new-button:hover {
+	background-color:#c62d1f;
+}
+.new-button:active {
+	position:relative;
+	top:1px;
+}
+
+.sidebar-list {
+	list-style-type: none;
+	border: 1px solid;
+}
+
+.main-display {
+	flex-grow:21;
+}
